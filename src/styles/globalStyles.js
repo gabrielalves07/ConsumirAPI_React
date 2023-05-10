@@ -17,7 +17,6 @@ export default createGlobalStyle`
   html, body, #root{
     height: 100%;
     background-color: ${colors.primaryDarkColor};
-    color: ${colors.primaryColor};
   }
 
   button{
@@ -28,6 +27,10 @@ export default createGlobalStyle`
     padding: 10px 18px;
     font-size: 16px;
     border-radius: 4px;
+  }
+
+  h1{
+    color: ${colors.primaryColor};
   }
 
   a{
@@ -46,10 +49,10 @@ export default createGlobalStyle`
 `;
 
 export const Container = styled.section`
-  max-width: 500px;
+  max-width: 550px;
   background-color: white;
   margin: 30px auto;
-  padding: 10px;
+  padding: 20px 25px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 `;
