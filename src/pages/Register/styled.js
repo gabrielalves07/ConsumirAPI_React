@@ -25,5 +25,10 @@ export const Form = styled.form`
 
   button {
     margin-top: 15px;
+    transition: all 0.4s;
+
+    &:hover {
+      filter: brightness(90%);
+    }
   }
 `;
