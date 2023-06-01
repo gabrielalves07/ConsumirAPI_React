@@ -18,11 +18,20 @@ export const AlunoContainer = styled.div`
 
   .editAndClose .edit {
     color: ${colors.primaryColor};
+    padding: 0;
   }
 
   .editAndClose .close {
     margin-left: 10px;
     color: red;
+    padding: 0;
+  }
+
+  .editAndClose .confirm {
+    margin-left: 10px;
+    margin-bottom: 3px;
+    color: red;
+    padding: 0;
   }
 
   .editAndClose .close:hover,
